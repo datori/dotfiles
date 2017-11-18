@@ -1,0 +1,52 @@
+urxvt*background:             #000000
+urxvt*foreground:             #FFFFFF
+!black
+urxvt*color0:     #101010
+urxvt*color8:     #404040
+!red
+urxvt*color1:     #E84F4F
+urxvt*color9:     #D23D3D
+!green
+urxvt*color2:     #B8D68C
+urxvt*color10:    #A0CF5D
+!yellow
+urxvt*color3:     #E1AA5D
+urxvt*color11:    #F39D21
+!blue
+urxvt*color4:     #7DC1CF
+urxvt*color12:    #4E9FB1
+!magenta
+urxvt*color5:     #9B64FB
+urxvt*color13:    #8542FF
+!cyan
+urxvt*color6:     #6D878D
+urxvt*color14:    #59A9ED
+!white
+urxvt*color7:     #dddddd
+urxvt*color15:    #dddddd
+
+!URxvt.font:             xft:inconsolata:pixelsize=18:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+!URxvt.boldFont:         xft:inconsolata:pixelsize=18:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+!URxvt.italicFont:       xft:inconsolata:pixelsize=18:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+!URxvt.bolditalicFont:   xft:inconsolata:pixelsize=18:antialias=true:hinting=true, xft:dejavu sans mono:pixelsize=13:antialias=true,hinting=true
+URxvt.font:         xft:Hack-Regular:pixelsize=18,xft:Symbola
+URxvt.boldFont:     xft:Hack-Bold:pixelsize=18:weight=bold,xft:Symbola
+URxvt.italicFont:   xft:Hack-RegularOblique:pixelsize=18:slant=italic,xft:Symbola
+
+URxvt.scrollBar: false
+URxvt.transparent: true
+URxvt.shading:20
+
+! Included this so you know how to make your foreground not match the color of your background
+URxvt.foreground: #eeeeee
+
+
+! Enable the extended coloring options
+rofi.separator-style: none
+rofi.color-enabled: true
+!                  bg       border   separator
+rofi.color-window: #101010, #59A9ED, #59A9ED
+!                  bg       fg       bg-alt   hl-bg    hl-fg
+rofi.color-normal: #101010, #dddddd, #101010, #7DC1CF, #101010
+rofi.color-active: #101010, #dddddd, #101010, #7DC1CF, #101010
+rofi.color-urgent: #101010, #dddddd, #101010, #7DC1CF, #101010
