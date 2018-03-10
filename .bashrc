@@ -150,4 +150,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# export PS1="\u \w $txtcyn>$txtrst"
+ export PS1="\w $txtcyn>$txtrst "
