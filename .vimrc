@@ -6,14 +6,18 @@ call plug#begin('~/.vim/plugs')
 
 " Declare the list of plugins.
 Plug 'pangloss/vim-javascript'
+Plug 'Yggdroot/indentLine'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
 
+" Define colorscheme
 colorscheme monokai
 
+" Set mouse to active
 :set mouse:a
 
+" Set cursor types
 let &t_SI = "\<Esc>[6 q"
 let &t_SR = "\<Esc>[6 q"
 let &t_EI = "\<Esc>[6 q"
