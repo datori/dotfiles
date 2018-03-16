@@ -7,6 +7,7 @@ call plug#begin('~/.vim/plugs')
 " Declare the list of plugins.
 Plug 'pangloss/vim-javascript'
 Plug 'Yggdroot/indentLine'
+Plug 'scrooloose/nerdtree'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
