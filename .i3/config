@@ -230,3 +230,6 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Assign programs to workspace
 # assign [class="Sublime_text"] $workspace2 
+
+bindsym Mod1+Ctrl+Shift+Q exec xrandr -o normal
+bindsym Mod1+Ctrl+Shift+E exec xrandr -o right
