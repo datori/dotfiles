@@ -25,3 +25,9 @@ let &t_EI = "\<Esc>[6 q"
 
 " Disable banner in Vexplore
 let g:netrw_banner = 0
+
+" Easy split navigation
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
