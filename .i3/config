@@ -233,3 +233,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 bindsym Mod1+Ctrl+Shift+Q exec xrandr -o normal
 bindsym Mod1+Ctrl+Shift+E exec xrandr -o right
+
+# Autostart telegram and assign to workspace
+exec Telegram
+for_window [class="TelegramDesktop"] move scratchpad
