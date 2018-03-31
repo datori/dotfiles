@@ -48,10 +48,10 @@ bindsym Mod1+d exec rofi -show run
 # bindsym Mod1+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym Mod1+$left focus left
-bindsym Mod1+$down focus down
-bindsym Mod1+$up focus up
-bindsym Mod1+$right focus right
+# bindsym Mod1+$left focus left
+# bindsym Mod1+$down focus down
+# bindsym Mod1+$up focus up
+# bindsym Mod1+$right focus right
 
 # alternatively, you can use the cursor keys:
 bindsym Mod1+Left focus left
@@ -60,10 +60,10 @@ bindsym Mod1+Up focus up
 bindsym Mod1+Right focus right
 
 # move focused window
-bindsym Mod1+Shift+$left move left
-bindsym Mod1+Shift+$down move down
-bindsym Mod1+Shift+$up move up
-bindsym Mod1+Shift+$right move right
+# bindsym Mod1+Shift+$left move left
+# bindsym Mod1+Shift+$down move down
+# bindsym Mod1+Shift+$up move up
+# bindsym Mod1+Shift+$right move right
 
 # alternatively, you can use the cursor keys:
 bindsym Mod1+Shift+Left move left
@@ -72,10 +72,10 @@ bindsym Mod1+Shift+Up move up
 bindsym Mod1+Shift+Right move right
 
 # split in horizontal orientation
-bindsym Mod1+h split h
+# bindsym Mod1+h split h
 
 # split in vertical orientation
-bindsym Mod1+v split v
+# bindsym Mod1+v split v
 
 # enter fullscreen mode for the focused container
 bindsym Mod1+f fullscreen toggle
@@ -154,10 +154,15 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym $left       resize shrink width 10 px or 10 ppt
-        bindsym $down       resize grow height 10 px or 10 ppt
-        bindsym $up         resize shrink height 10 px or 10 ppt
-        bindsym $right      resize grow width 10 px or 10 ppt
+        # bindsym $left       resize shrink width 10 px or 10 ppt
+        # bindsym $down       resize grow height 10 px or 10 ppt
+        # bindsym $up         resize shrink height 10 px or 10 ppt
+        # bindsym $right      resize grow width 10 px or 10 ppt
+        bindsym h       resize shrink width 10 px or 10 ppt
+        bindsym j       resize grow height 10 px or 10 ppt
+        bindsym k       resize shrink height 10 px or 10 ppt
+        bindsym l       resize grow width 10 px or 10 ppt
+ 
 
         # same bindings, but for the arrow keys
         bindsym Left        resize shrink width 10 px or 10 ppt
@@ -195,6 +200,7 @@ bindsym Mod1+r mode "resize"
 #######################################################################
 # exec i3-config-wizard
 
+# ----- BEGIN CUSTOM CONFIGURATIONS -----
 # Color scheme variables
 set $bg-color 	         #2f343f
 set $inactive-bg-color   #2f343f
@@ -237,3 +243,17 @@ bindsym Mod1+Ctrl+Shift+E exec xrandr -o right
 # Autostart telegram and assign to workspace
 exec Telegram
 for_window [class="TelegramDesktop"] move scratchpad
+
+# Bind custom navigation keys
+bindsym Mod1+h focus left
+bindsym Mod1+j focus down
+bindsym Mod1+k focus up
+bindsym Mod1+l focus right
+# Bind custom window-movement keys
+bindsym Mod1+Shift+h move left
+bindsym Mod1+Shift+j move down
+bindsym Mod1+Shift+k move up
+bindsym Mod1+Shift+l move right
+# Bind orientation split
+bindsym Mod1+minus split vertical
+bindsym Mod1+equal split horizontal
