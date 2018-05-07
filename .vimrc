@@ -8,6 +8,7 @@ call plug#begin('~/.vim/plugs')
 Plug 'pangloss/vim-javascript'
 Plug 'Yggdroot/indentLine'
 Plug 'scrooloose/nerdtree'
+Plug 'jceb/vim-orgmode'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
