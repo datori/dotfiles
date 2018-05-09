@@ -226,7 +226,7 @@ exec_always compton
 exec_always --no-startup-id setxkbmap -layout us -variant altgr-intl
 
 # Background
-exec_always feh --bg-scale ~/Pictures/Wallpapers/jpg/pillars.jpg
+exec_always feh --bg-scale ~/Pictures/wallpapers/jpg/pillars.jpg
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #4c7899 #59A9ED #111111 #2e9ef4   #285577
