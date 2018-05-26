@@ -1,4 +1,5 @@
 alias EMULATOR="cd $ANDROID_HOME/tools && emulator -avd Nexus_5X_API_23 -use-system-libs"
+alias ANDROID_MONITOR="cd $ANDROID_HOME/tools && ./monitor"
 alias PCIT="cd /home/daniel75027/Programs/PCIT"
 alias Transmission_Start="sudo service transmission-daemon start"
 alias Transmission_Stop="sudo service transmission-daemon stop"
