@@ -11,6 +11,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 Plug 'crusoexia/vim-monokai'
+Plug 'easymotion/vim-easymotion'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
