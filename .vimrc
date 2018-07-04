@@ -12,6 +12,7 @@ Plug 'jceb/vim-orgmode'
 Plug 'tpope/vim-speeddating'
 Plug 'crusoexia/vim-monokai'
 Plug 'easymotion/vim-easymotion'
+Plug 'mxw/vim-jsx'
 
 " List ends here. Plugins become visible to Vim after this call.
 call plug#end()
