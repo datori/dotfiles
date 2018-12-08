@@ -1,0 +1,8 @@
+alias rss="newsbeuter"
+alias rng="ranger"
+alias replaceall="find . -type f | xargs sed -i"
+alias sc="sc-im"
+alias pac="pacman"
+alias tri="trizen"
+alias ls="ls -a1"
+alias v="vim"
