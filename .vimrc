@@ -1,4 +1,5 @@
 :set relativenumber
+:set hlsearch
 :set tabstop=2 softtabstop=2 shiftwidth=2 noexpandtab
 
 " Plugins will be downloaded under the specified directory.
@@ -20,7 +21,7 @@ Plug 'airblade/vim-gitgutter'
 call plug#end()
 
 " Define colorscheme
-colorscheme monokai
+" colorscheme monokai
 
 " Set mouse to active
 :set mouse:a
