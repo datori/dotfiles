@@ -213,9 +213,6 @@ bindsym Mod1+Shift+X exec i3lock --color "$bg-color"
 # Set normal windows to have no titlebar
 new_window pixel 1 
 
-# Set default display mode to tabbe
-workspace_layout tabbed
-
 # Prevent focus from following mouse hover
 focus_follows_mouse no
 
