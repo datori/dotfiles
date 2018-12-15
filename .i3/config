@@ -213,6 +213,9 @@ bindsym Mod1+Shift+X exec i3lock --color "$bg-color"
 # Set normal windows to have no titlebar
 new_window pixel 1 
 
+# Set default display mode to tabbe
+workspace_layout tabbed
+
 # Prevent focus from following mouse hover
 focus_follows_mouse no
 
@@ -223,10 +226,10 @@ exec_always compton
 exec_always --no-startup-id setxkbmap -layout us -variant altgr-intl
 
 # Background
-exec_always feh --bg-scale ~/Pictures/wallpapers/jpg/pillars.jpg
+exec_always feh --bg-scale ~/.config/wallpaper.jpg
 
 # class                 border  backgr. text    indicator child_border
-client.focused          #4c7899 #59A9ED #111111 #2e9ef4   #285577
+# client.focused          #4c7899 #59A9ED #111111 #2e9ef4   #285577
 
 # start polybar
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
@@ -254,3 +257,6 @@ bindsym Mod1+Shift+l move right
 # Bind orientation split
 bindsym Mod1+minus split vertical
 bindsym Mod1+equal split horizontal
+
+gaps inner 14
+gaps outer 0
